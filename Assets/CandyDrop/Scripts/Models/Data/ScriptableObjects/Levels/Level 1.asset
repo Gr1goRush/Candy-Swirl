@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cb1454af9bc9b82418fb81194b2cebcb, type: 3}
+  m_Name: Level 1
+  m_EditorClassIdentifier: 
+  _numberLevel: 1
+  _countFrameGame: 15
+  _timeToPass: 1
+  _background: {fileID: 21300000, guid: dbeb19400953b47479d6bfa88097d3f1, type: 3}
+  _ground: {fileID: 21300000, guid: 5d8591a2e78f5b84e8bb5f17ccc52e12, type: 3}
+  _enemies:
+  - {fileID: -2259647991030850927, guid: 2c9d63d091677984baed297b8da73b68, type: 3}
+  - {fileID: 8421903614447616053, guid: 2b845f084e1b66442826566855468501, type: 3}
+  - {fileID: 5352103809899503678, guid: 3cb769c766e43a24c8a92d50d87fa2fd, type: 3}
+  - {fileID: 5988884499205075424, guid: ec1d3569dfef4b34d94ccdff74ccdf14, type: 3}
+  _platforms:
+  - {fileID: -1913513286220747778, guid: 4050e9bf79382af4383461c03eb0e501, type: 3}
+  - {fileID: 162116743198969648, guid: a1fd1d25812b51047bdfbf6018a3f3f2, type: 3}
+  - {fileID: -7070394275851815943, guid: df027c575946af14989ea158ab050d44, type: 3}
+  _wall: {fileID: -3303129513384269100, guid: d9a814249cca57242bc23b200c6d41a8, type: 3}
+  _health: {fileID: 8492882248859218709, guid: 882b48974fc0fd04983c5c6fa6bf3bb6, type: 3}
